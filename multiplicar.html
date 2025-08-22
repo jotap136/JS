@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script>
+        function Multiplicar() {
+            let n1 = document.getElementById('numero1').value;
+            let n2 = document.getElementById('numero2').value;
+            let resultado = n1 * n2
+            alert('Resultado: ' + resultado);
+        }
+    </script>
+</head>
+
+<body>
+    <label for="numero1">numero 1:</label>
+    <input type="text" id="numero1" name="numero1" placeholder="Numero 1" />
+    <br><br>
+    <label for="numero2">Numero 2:</label>
+    <input type="text" id="numero2" name="numero2" placeholder="Numero 2" />
+    <br><br>
+    <input type="button" value="Confirmar" onclick="Multiplicar()"  />
+</body>
+
+</html>
